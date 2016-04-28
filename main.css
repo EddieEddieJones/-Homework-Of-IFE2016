@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #dedede;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+.mainHeader {
+    background-color: #333333;
+    height: 70px;
+}
+
+/*不会做网页头部*/
+.mainHeader img {
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*padding-left: 50px;*/
+    /*padding-top: 15px;*/
+}
+
+.mainNav {
+    float: right;
+}
+
+.mainNav li {
+    float: left;
+    width: 100px;
+    line-height: 70px;
+}
+
+.mainNav a {
+    text-decoration: none;
+    color: #e8ecef;
+}
+
+.mainNav a:visited {
+    color: #a8a6a7;
+}
+
+article,aside {
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 30px;
+}
+
+.mouse{
+    margin: 20px 0;
+}
+
+/*段落首行缩进2字符*/
+section p {
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+.monkey figure {
+    font-size: 15px;
+    text-align:center;
+    border: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    margin: 20px;
+    padding: 10px;
+    width: 150px;
+}
+
+figure figcaption {
+    margin: 10px;
+}
+
+figure img {
+    width: 130px;
+    height: auto;
+}
+
+aside ol {
+    margin: 10px 20px;
+}
+
+.tabl {
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px;
+    border-color: #cccccc;
+}
+
+.tabl th,.tabl td {
+    text-align: left;
+}
+
+.tabl th{
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+aside .form {
+    line-height: 40px;
+    text-align: left;
+    margin-left: 30%;
+}
+
+#submitButton {
+    background-color: #3355D0;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333333;
+    color:#FFFFFF;
+    font-size: 15px;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+
+}
+
+
+
+
+
+
+
+
